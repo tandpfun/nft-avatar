@@ -2,7 +2,7 @@
   <div class="flex flex-col md:flex-row items-center justify-center">
     <div class="flex flex-col justify-center items-center px-4">
       <p class="text-yellow-400 font-semibold text-xl mb-2">upload</p>
-      <div class="border border-dashed border-yellow-300 p-5 md:mx-8 text-white rounded-md w-96 backdrop-filter backdrop-blur-md">
+      <div class="border border-dashed border-yellow-300 p-5 md:mx-8 text-white rounded-md w-96 bg-gray-800">
         <div class="container flex flex-col items-center">
           <img ref="uploadPreview" class="w-32 h-32 object-contain mb-4 rounded-full" :src="image" />
           <input ref="uploadFile" class="flex flex-row items-center justify-center" type="file" accept="image/*" @change="imageChange" />
@@ -11,7 +11,7 @@
     </div>
     <div class="flex flex-col justify-center items-center px-4 mt-8 md:mt-0">
       <p class="text-yellow-400 font-semibold text-xl mb-2">output</p>
-      <div class="border border-dashed border-yellow-300 p-5 md:mx-8 text-white rounded-md w-96 backdrop-filter backdrop-blur-md">
+      <div class="border border-dashed border-yellow-300 p-5 md:mx-8 text-white rounded-md w-96 bg-gray-800">
         <div class="container flex flex-col items-center">
           <canvas ref="outputCanvas" class="mb-4 w-32 h-32" width="250" height="250"></canvas>
           <a
