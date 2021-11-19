@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="relative mx-8">
+    <div class="mb-8">
       <div class="max-w-5xl mx-auto mt-14">
         <div class="text-white text-center my-8">
           <h1 class="font-bold text-4xl">Fake Twitter NFT Avatar</h1>
