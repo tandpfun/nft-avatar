@@ -8,7 +8,7 @@
           <p class="font-semibold text-xl">Give your profile picture a hexagonal shape without an NFT!</p>
           <p class="text-md mt-1">
             Open source on <a class="text-blue-500 hover:text-blue-600 transition duration-50" href="https://github.com/tandpfun/nft-avatar" target="_blank">GitHub</a>. Made by
-            <a class="text-blue-500 hover:text-blue-600 transition duration-50" href="https://twitter.com/cdngdev" target="_blank">@cdngdev</a>.
+            <a class="text-blue-500 hover:text-blue-600 transition duration-50" href="https://twitter.com/thijs" target="_blank">@thijs</a>.
           </p>
         </div>
         <ImageEditor />
